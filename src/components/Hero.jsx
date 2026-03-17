@@ -6,7 +6,6 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto grid grid-cols-2 gap-10 items-center">
 
-        {/* TEXTO */}
         <div>
 
           <span className="bg-green-800 px-4 py-1 rounded-full text-sm">
@@ -36,32 +35,9 @@ export default function Hero() {
 
         </div>
 
-        {/* CURSOS */}
         <div className="flex flex-col gap-4">
 
-          <CourseProgress
-            title="Python — Básico"
-            progress={60}
-            icon="Py"
-          />
-
-          <CourseProgress
-            title="HTML — Fundamentos"
-            progress={85}
-            icon="HTML"
-          />
-
-          <CourseProgress
-            title="Java — Intermedio"
-            progress={40}
-            icon="Ja"
-          />
-
-          <CourseProgress
-            title="CSS — Avanzado"
-            progress={70}
-            icon="CSS"
-          />
+          <CourseProgress />
 
         </div>
 
